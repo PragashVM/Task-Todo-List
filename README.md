@@ -1,16 +1,26 @@
-# todo_app
+# Flutter Firebase To-Do App
 
-A new Flutter project.
+A robust, responsive To-Do List application built as part of a technical assessment. The app features secure authentication and real-time data persistence using Firebase.
 
-## Getting Started
+## 🚀 Features
+- **User Authentication:** Email/Password Sign-up and Login via Firebase Auth REST API.
+- **Task Management:** Full CRUD (Create, Read, Update, Delete) functionality.
+- **Persistent Storage:** Data is stored and synced using Firebase Realtime Database.
+- **State Management:** Efficiently handled using the `provider` package.
+- **Responsiveness:** Optimized for various screen sizes and orientations (Portrait/Landscape).
+- **Auto-Login:** Remembers user sessions using `SharedPreferences`.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- **Framework:** Flutter
+- **State Management:** Provider
+- **Backend:** Firebase (Authentication & Realtime Database)
+- **API Communication:** HTTP (REST API calls)
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 How to Run
+1. Clone this repository.
+2. Run `flutter pub get` to install dependencies.
+3. Connect an Android device or emulator.
+4. Run `flutter run`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📄 Note on Security
+The Firebase Web API Key is included in the source code to allow for immediate testing by the evaluator. In a production environment, these would be managed via environment variables.
